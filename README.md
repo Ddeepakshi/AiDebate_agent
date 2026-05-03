@@ -22,7 +22,7 @@
 git clone https://github.com/yourusername/ai-debate-arena.git
 cd ai-debate-arena
 pip install -r requirements.txt
-echo "API_KEY=your_anthropic_key" > .env
+echo "API_KEY=your_llm_provider_key" > .env
 streamlit run frontdebate.py
 ```
 
@@ -72,8 +72,8 @@ human_mode = True    # Join the battle
 
 ## 🛠️ Built With Bleeding-Edge Tech
 
-- **Claude 3.5 Sonnet** - The smartest AI on Earth
-- **AutoGen** - Microsoft's agent orchestration beast
+- **AutoGen** - Microsoft's agent orchestration framework
+- **Frontier LLMs** - Configurable provider for the underlying model
 - **Streamlit** - Lightning-fast web deployment
 - **Advanced Async** - Zero-lag real-time performance
 
